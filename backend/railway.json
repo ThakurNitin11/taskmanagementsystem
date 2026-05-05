@@ -6,7 +6,6 @@
   },
   "deploy": {
     "startCommand": "java -Xmx256m -Xss512k -XX:+UseSerialGC -jar target/*.jar",
-    "healthcheckPath": "/api/auth/login",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 3
   }
