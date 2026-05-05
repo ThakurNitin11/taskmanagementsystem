@@ -1,0 +1,1 @@
+web: java -Xmx256m -Xss512k -XX:+UseSerialGC -jar target/*.jar
